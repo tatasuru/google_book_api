@@ -4,6 +4,7 @@
       <router-link class="footerbtn" to="/">BookIndex</router-link>
       <router-link class="footerbtn" to="/search">BookSearch</router-link>
       <router-link class="footerbtn" to="/edit">BookEdit</router-link>
+      <router-link class="headerbtn" to="/weather">Weather</router-link>
 
       <v-spacer></v-spacer>
 

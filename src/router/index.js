@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import BookIndex from '@/pages/BookIndex.vue'
 import BookSearch from '@/pages/BookSearch.vue'
 import BookEdit from '@/pages/BookEdit.vue'
+import Weather from '@/pages/Weather.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/edit',
     name: 'BookEdit',
     component: BookEdit
+  },
+  {
+    path: '/weather',
+    name: 'Weather',
+    component: Weather
   },
   {
     path: '*',

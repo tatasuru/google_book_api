@@ -10,6 +10,7 @@
       <router-link class="headerbtn" to="/">BookIndex</router-link>
       <router-link class="headerbtn" to="/search">BookSearch</router-link>
       <router-link class="headerbtn" to="/edit">BookEdit</router-link>
+      <router-link class="headerbtn" to="/weather">Weather</router-link>
 
       <v-spacer></v-spacer>
 

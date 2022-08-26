@@ -3,7 +3,7 @@
     <Header />
     <v-main>
       <transition mode="out-in">
-      <router-view/>
+        <router-view/>
       </transition>
     </v-main>
     <Footer />
