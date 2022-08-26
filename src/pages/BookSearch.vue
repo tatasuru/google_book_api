@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <input
     v-model="keyword"
     class="serchEnter"
@@ -36,4 +36,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.main {
+  max-width: 1536px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+
+  input{
+    border: 1px solid #000;
+    background: #fff;
+    margin-right: 50px;
+  }
+
+  button{
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: rgb(40, 174, 130);
+    color: #fff;
+    font-weight: 600;
+  }
+
+}
+
 </style>

@@ -5,7 +5,11 @@
       app
       color="primary"
       dark
+      class="header"
     >
+      <router-link class="headerbtn" to="/">BookIndex</router-link>
+      <router-link class="headerbtn" to="/search">BookSearch</router-link>
+      <router-link class="headerbtn" to="/edit">BookEdit</router-link>
 
       <v-spacer></v-spacer>
 
@@ -23,6 +27,17 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+.header{
+  padding: 0 50px;
+}
+
+.headerbtn{
+  color: #fff;
+  margin-right: 50px;
+  text-decoration: none;
+  font-size: 20px;
+}
 
 </style>

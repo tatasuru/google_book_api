@@ -1,5 +1,5 @@
 <template>
-  <div>BookIndex</div>
+  <div class="main">BookIndex</div>
 </template>
 
 <script>
@@ -11,6 +11,13 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+.main {
+  max-width: 1536px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
 
 </style>

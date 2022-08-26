@@ -1,12 +1,7 @@
 <template>
-  <v-app>
+  <v-app class="bg">
     <Header />
     <v-main>
-      <nav>
-        <router-link to="/">BookIndex</router-link> |
-        <router-link to="/search">BookSearch</router-link> |
-        <router-link to="/edit">BookEdit</router-link> |
-      </nav>
       <transition mode="out-in">
       <router-view/>
       </transition>
@@ -32,6 +27,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.bg{
+  background: rgb(215, 215, 215);
+}
 
 .v-enter-active, .v-leave-active {
   transition: opacity .5s;
